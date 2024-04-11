@@ -82,7 +82,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: 油管绵阿羊_None_vmess_13
+- name: 油管绵阿羊_France_vmess_13
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -293,11 +293,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 油管绵阿羊_United States_hy_1
+- name: 油管绵阿羊_France_hy_1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -324,8 +324,8 @@ proxies:
 - name: 油管绵阿羊_United States_hy_3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -391,7 +391,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria2_01
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_United States_vmess_12
-  - 油管绵阿羊_None_vmess_13
+  - 油管绵阿羊_France_vmess_13
   - 油管绵阿羊_None_vmess_14
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vless_31
@@ -402,7 +402,7 @@ proxy-groups:
   - 油管绵阿羊_United States_vless_81
   - 油管绵阿羊_United States_ss_91
   - 油管绵阿羊_United States_hy_0
-  - 油管绵阿羊_United States_hy_1
+  - 油管绵阿羊_France_hy_1
   - 油管绵阿羊_Taiwan_hy_2
   - 油管绵阿羊_United States_hy_3
   - 油管绵阿羊_United States_hy2_0
@@ -415,7 +415,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria2_01
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_United States_vmess_12
-  - 油管绵阿羊_None_vmess_13
+  - 油管绵阿羊_France_vmess_13
   - 油管绵阿羊_None_vmess_14
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vless_31
@@ -426,7 +426,7 @@ proxy-groups:
   - 油管绵阿羊_United States_vless_81
   - 油管绵阿羊_United States_ss_91
   - 油管绵阿羊_United States_hy_0
-  - 油管绵阿羊_United States_hy_1
+  - 油管绵阿羊_France_hy_1
   - 油管绵阿羊_Taiwan_hy_2
   - 油管绵阿羊_United States_hy_3
   - 油管绵阿羊_United States_hy2_0
@@ -439,7 +439,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria2_01
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_United States_vmess_12
-  - 油管绵阿羊_None_vmess_13
+  - 油管绵阿羊_France_vmess_13
   - 油管绵阿羊_None_vmess_14
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vless_31
@@ -450,7 +450,7 @@ proxy-groups:
   - 油管绵阿羊_United States_vless_81
   - 油管绵阿羊_United States_ss_91
   - 油管绵阿羊_United States_hy_0
-  - 油管绵阿羊_United States_hy_1
+  - 油管绵阿羊_France_hy_1
   - 油管绵阿羊_Taiwan_hy_2
   - 油管绵阿羊_United States_hy_3
   - 油管绵阿羊_United States_hy2_0
