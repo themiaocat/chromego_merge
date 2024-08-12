@@ -6,6 +6,7 @@ on:
       - main  # 替换为你的默认分支
   schedule:
     - cron:  '0 0 * * 0'  # 每周日午夜触发
+  workflow_dispatch:
 
 jobs:
   merge:
