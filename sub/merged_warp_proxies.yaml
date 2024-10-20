@@ -150,9 +150,9 @@ proxies:
   down: 100 Mbps
 - name: hysteria0
   type: hysteria
-  server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  server: 62.210.8.63
+  port: 2345
+  ports: 2345
   auth_str: dongtaiwang.com
   up: 11
   down: 55
