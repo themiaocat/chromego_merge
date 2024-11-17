@@ -1,4 +1,4 @@
-http2://ZG9uZ3RhaXdhbmcuY29tOmRvbmd0YWl3YW5nLmNvbUBuYWl2ZTIzLmNmY2RuMy54eXo6NDQz
+http2://ZG9uZ3RhaXdhbmcuY29tOmRvbmd0YWl3YW5nLmNvbUBuYWl2ZTI0LmNmY2RuMy54eXo6NDQz
 http2://ZG9uZ3RhaXdhbmcuY29tOmRvbmd0YWl3YW5nLmNvbUBuYWl2ZTI0LmNmY2RuMy54eXo6NDQz
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QVNYbWhxT0RaYXNuVjc3N1AybTMzZVE5bUNVNUtYWTg2ZFhKUVR1V0ZXOD1AOTEuMTQ5LjIzOS4yMzozNDU2Nw==?shadow-tls=eyJ2ZXJzaW9uIjogIjEiLCAiaG9zdCI6ICJuaWppZ2VuLXdvcmtzLmpwIn0=#shadowtls1
 hysteria://46.17.43.223:64907,30000-40000?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria0
