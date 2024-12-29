@@ -186,6 +186,62 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: reality0
+  type: vless
+  server: 36.226.244.225
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: reality1
+  type: vless
+  server: 36.226.244.225
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: reality2
+  type: vless
+  server: 36.226.244.225
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: reality3
+  type: vless
+  server: 36.226.244.225
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 proxy-groups:
 - name: 节点选择
   type: select
@@ -206,6 +262,10 @@ proxy-groups:
   - hysteria1
   - hysteria2
   - hysteria3
+  - reality0
+  - reality1
+  - reality2
+  - reality3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -226,6 +286,10 @@ proxy-groups:
   - hysteria1
   - hysteria2
   - hysteria3
+  - reality0
+  - reality1
+  - reality2
+  - reality3
 rule-providers:
   reject:
     type: http

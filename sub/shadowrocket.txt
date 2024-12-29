@@ -4,3 +4,7 @@ hysteria://46.17.43.223:64907,30000-40000?peer=bing.com&auth=dongtaiwang.com&ins
 hysteria://46.17.43.223:12345?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria1
 hysteria://46.17.43.223:12345?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria2
 hysteria://46.17.43.223:12345?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria3
+vless://7c4efc45-42f7-48d8-a741-6093cd2886a7@36.226.244.225:56870?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA&sni=www.yahoo.com&spx=&sid=239c3cef#REALITY0
+vless://7c4efc45-42f7-48d8-a741-6093cd2886a7@36.226.244.225:56870?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA&sni=www.yahoo.com&spx=&sid=239c3cef#REALITY1
+vless://7c4efc45-42f7-48d8-a741-6093cd2886a7@36.226.244.225:56870?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA&sni=www.yahoo.com&spx=&sid=239c3cef#REALITY2
+vless://7c4efc45-42f7-48d8-a741-6093cd2886a7@36.226.244.225:56870?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA&sni=www.yahoo.com&spx=&sid=239c3cef#REALITY3
