@@ -151,56 +151,56 @@ proxies:
 - name: hysteria0
   type: hysteria
   server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 11
   down: 55
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria1
   type: hysteria
   server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 11
   down: 55
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria2
   type: hysteria
   server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 11
   down: 55
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria3
   type: hysteria
   server: 185.22.155.71
-  port: 15424
-  ports: 30000-40000
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 11
   down: 55
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
