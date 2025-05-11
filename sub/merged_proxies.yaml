@@ -146,9 +146,9 @@ proxies:
   - h3
 - name: hysteria1
   type: hysteria
-  server: 208.87.243.187
-  port: 40528
-  ports: 40528
+  server: 185.22.155.71
+  port: 10803
+  ports: 10803
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -174,9 +174,9 @@ proxies:
   - h3
 - name: hysteria3
   type: hysteria
-  server: 208.87.243.187
-  port: 40528
-  ports: 40528
+  server: 185.22.155.71
+  port: 10803
+  ports: 10803
   auth_str: dongtaiwang.com
   up: 11
   down: 55
