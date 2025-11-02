@@ -4,5 +4,3 @@ hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria1
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria2
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria3
-vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sni=dash.cloudflare.com&spx=&sid=#REALITY0
-vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sni=dash.cloudflare.com&spx=&sid=#REALITY1

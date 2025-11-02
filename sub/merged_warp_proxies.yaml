@@ -204,34 +204,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: reality0
-  type: vless
-  server: 2001:bc8:32d7:302::13
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-- name: reality1
-  type: vless
-  server: 2001:bc8:32d7:302::13
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -268,8 +240,6 @@ proxy-groups:
   - hysteria1
   - hysteria2
   - hysteria3
-  - reality0
-  - reality1
 - name: 手动选择
   type: select
   proxies:
@@ -287,8 +257,6 @@ proxy-groups:
   - hysteria1
   - hysteria2
   - hysteria3
-  - reality0
-  - reality1
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -306,8 +274,6 @@ proxy-groups:
   - hysteria1
   - hysteria2
   - hysteria3
-  - reality0
-  - reality1
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
