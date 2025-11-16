@@ -132,9 +132,9 @@ proxies:
   down: 100 Mbps
 - name: hysteria0
   type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
+  server: '[2604'
+  port: 6600
+  ports: 6600
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -146,9 +146,9 @@ proxies:
   - h3
 - name: hysteria1
   type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
+  server: '[2604'
+  port: 6600
+  ports: 6600
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -160,9 +160,9 @@ proxies:
   - h3
 - name: hysteria2
   type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
+  server: '[2604'
+  port: 6600
+  ports: 6600
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -174,9 +174,9 @@ proxies:
   - h3
 - name: hysteria3
   type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
+  server: '[2604'
+  port: 6600
+  ports: 6600
   auth_str: dongtaiwang.com
   up: 11
   down: 55
