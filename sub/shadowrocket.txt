@@ -1,0 +1,2 @@
+vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sni=dash.cloudflare.com&spx=&sid=#REALITY0
+vless://26c462ba-a90c-4814-9d7c-a629bc0bdb5c@2001:bc8:32d7:302::13:34324?security=reality&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M&sni=dash.cloudflare.com&spx=&sid=#REALITY1

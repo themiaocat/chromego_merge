@@ -20,6 +20,34 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   skip-cert-verify: true
+- name: reality0
+  type: vless
+  server: 2001:bc8:32d7:302::13
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
+- name: reality1
+  type: vless
+  server: 2001:bc8:32d7:302::13
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -27,6 +55,8 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 油管-绵阿羊
+  - reality0
+  - reality1
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -34,6 +64,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管-绵阿羊
+  - reality0
+  - reality1
 rule-providers:
   reject:
     type: http
